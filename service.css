@@ -1,0 +1,375 @@
+/* Service Pages Specific Styles */
+
+/* Hero Section */
+.service-hero {
+    background-color: #4a6cf7;
+    background-image: linear-gradient(135deg, #4a6cf7 0%, #2a3cf7 100%);
+    color: white;
+    padding: 100px 0 60px;
+    text-align: center;
+}
+
+.service-hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.service-hero-content p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Overview Section */
+.service-overview {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.overview-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.overview-text {
+    flex: 1;
+}
+
+.overview-text h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.overview-text p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.overview-image {
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.overview-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.overview-image img:hover {
+    transform: scale(1.03);
+}
+
+/* Process Section */
+.service-process {
+    padding: 80px 0;
+}
+
+.service-process h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.process-steps {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.step {
+    display: flex;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.step:last-child {
+    margin-bottom: 0;
+}
+
+.step:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    width: 2px;
+    height: calc(100% - 10px);
+    background-color: #e0e0e0;
+    z-index: 1;
+}
+
+.step-number {
+    flex: 0 0 50px;
+    height: 50px;
+    background-color: #4a6cf7;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 25px;
+    position: relative;
+    z-index: 2;
+}
+
+.step-content {
+    flex: 1;
+}
+
+.step-content h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.step-content p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Example Section */
+.service-example {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.service-example h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.example-content {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.example-image {
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 100px;
+}
+
+.example-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.example-text {
+    flex: 1;
+}
+
+.example-text h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.client-info, .challenge {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.plan-section {
+    margin-bottom: 30px;
+}
+
+.plan-section h4 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #444;
+    border-left: 3px solid #4a6cf7;
+    padding-left: 15px;
+}
+
+.plan-section ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.plan-section li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.plan-section li:before {
+    content: "✓";
+    color: #4a6cf7;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* Testimonial Section */
+.service-testimonial {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.testimonial {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quote {
+    margin-bottom: 30px;
+}
+
+.quote i {
+    font-size: 2rem;
+    color: #4a6cf7;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+
+.quote p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+    font-style: italic;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.client-info h4 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.client-info p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* CTA Section */
+.service-cta {
+    padding: 80px 0;
+    background-color: #4a6cf7;
+    background-image: linear-gradient(135deg, #4a6cf7 0%, #2a3cf7 100%);
+    color: white;
+    text-align: center;
+}
+
+.service-cta h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.service-cta p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    opacity: 0.9;
+}
+
+.booking-btn {
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #4a6cf7;
+    transition: all 0.3s ease;
+    border: 2px solid white;
+}
+
+.booking-btn:hover {
+    background-color: transparent;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .overview-content, .example-content {
+        flex-direction: column;
+    }
+    
+    .example-image {
+        position: static;
+        margin-bottom: 30px;
+    }
+    
+    .service-hero-content h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .service-hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .service-hero-content p {
+        font-size: 1rem;
+    }
+    
+    .overview-text h2, .service-process h2, .service-example h2, .service-cta h2 {
+        font-size: 1.8rem;
+    }
+    
+    .step {
+        flex-direction: column;
+    }
+    
+    .step-number {
+        margin-bottom: 15px;
+    }
+    
+    .step:not(:last-child)::after {
+        left: 25px;
+        top: 50px;
+        height: calc(100% - 50px);
+    }
+}
+
+@media (max-width: 576px) {
+    .service-hero-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .overview-text h2, .service-process h2, .service-example h2, .service-cta h2 {
+        font-size: 1.5rem;
+    }
+    
+    .booking-btn {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+}

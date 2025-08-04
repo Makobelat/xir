@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XIR Consultancy Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>XIR</h1>
+                <p>Consultancy</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="shop.html">shop</a></li>
+                    <li><a href="index.html#contact" class="btn-primary">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" style="background: #101011;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>XIR Online Shop</h1>
+                <p>Get exclusive business tools and resources. <strong>50% off the Online SAFETYFILE – Limited time only!</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="shop-products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Products</h2>
+                <p>Empower your business with our curated solutions</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card highlight-blue">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Online SAFETYFILE" style="width:100%;border-radius:8px;">
+                    <h3>Online SAFETYFILE</h3>
+                    <p>All-in-one digital safety management system for your business. Easy to use, secure, and compliant.</p>
+                    <div class="product-price">
+                        <span class="old-price">R5000</span>
+                        <span class="new-price">R1000</span>
+                    </div>
+                    <a href="safetyfile.html" class="btn-primary" style="margin-top:1rem;">More Info</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Consulting Starter Pack" style="width:100%;border-radius:8px;">
+                    <h3>Consulting Starter Pack</h3>
+                    <p>Kickstart your business transformation with our expert consulting templates and guides.</p>
+                    <div class="product-price">
+                        <span class="new-price">R3750</span>
+                    </div>
+                    <a href="consulting-pack.html" class="btn-primary" style="margin-top:1rem;">More Info</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80" alt="Business startup Toolkit" style="width:100%;border-radius:8px;">
+                    <h3>Business startup Toolkit (basic)</h3>
+                    <p>Comprehensive business startup documents to streamline to get you going.</p>
+                    <div class="product-price">
+                        <span class="new-price">R1800</span>
+                    </div>
+                    <a href="startup-toolkit.html" class="btn-primary" style="margin-top:1rem;">More Info</a>
+                </div>
+            </div>
+            <div style="text-align:center; margin-top:2.5rem;">
+                <a href="tel:+27815356158" class="btn-primary" style="padding:1rem 2.5rem; font-size:1.15rem; border-radius:6px; background:#0033cc; color:#fff; text-decoration:none; display:inline-block; margin-right:1rem;">
+                    Custom Package? Call Us Now
+                </a>
+                <a href="https://wa.me/27815356158" target="_blank" class="whatsapp-btn" style="display:inline-block; vertical-align:middle; padding:1rem 1.3rem; border-radius:6px; background:#25D366; color:#fff; text-decoration:none; font-size:1.5rem;">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>XIR</h2>
+                    <p>Consultancy</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html#home">Home</a></li>
+                            <li><a href="index.html#services">Services</a></li>
+                            <li><a href="index.html#about">About</a></li>
+                            <li><a href="index.html#team">Team</a></li>
+                            <li><a href="index.html#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="index.html#services">Strategic Planning</a></li>
+                            <li><a href="index.html#services">Process Optimization</a></li>
+                            <li><a href="index.html#services">Organizational Development</a></li>
+                            <li><a href="index.html#services">Digital Transformation</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2023 XIR Consultancy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+    .shop-products {
+        padding: 60px 0;
+        background: #fff;
+    }
+    .products-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    .product-card {
+        background: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        padding: 2rem 1.5rem 1.5rem 1.5rem;
+        text-align: center;
+        transition: box-shadow 0.2s, transform 0.25s cubic-bezier(.4,2,.6,1), z-index 0.2s;
+    }
+    .product-card:hover {
+        box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+        transform: scale(1.07);
+        z-index: 2;
+    }
+    .product-card h3 {
+        margin: 1rem 0 0.5rem 0;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .product-card p {
+        color: #555;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .product-price {
+        margin-bottom: 0.5rem;
+    }
+    .old-price {
+        text-decoration: line-through;
+        color: #888;
+        margin-right: 0.5rem;
+        font-size: 1.1rem;
+    }
+    .new-price {
+        color: #007bff;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .highlight-red {
+        position: relative;
+        z-index: 1;
+        border: 2px solid #ff3333;
+        box-shadow:
+            0 0 0 0px rgba(255,0,0,0.3),
+            0 0 16px 8px rgba(255,0,0,0.18),
+            0 0 32px 16px rgba(255,0,0,0.12),
+            0 2px 8px rgba(0,0,0,0.06);
+        animation: red-halo-pulse 2s infinite alternate;
+    }
+
+    @keyframes red-halo-pulse {
+        0% {
+            box-shadow:
+                0 0 0 0px rgba(255,0,0,0.3),
+                0 0 16px 8px rgba(255,0,0,0.18),
+                0 0 32px 16px rgba(255,0,0,0.12),
+                0 2px 8px rgba(0,0,0,0.06);
+        }
+        100% {
+            box-shadow:
+                0 0 0 8px rgba(255,0,0,0.18),
+                0 0 32px 24px rgba(255,0,0,0.10),
+                0 0 48px 32px rgba(255,0,0,0.08),
+                0 2px 8px rgba(0,0,0,0.06);
+        }
+    }
+    .highlight-blue {
+        position: relative;
+        z-index: 1;
+        border: 2px solid #0033cc;
+        box-shadow:
+            0 0 0 0px rgba(0,51,204,0.3),
+            0 0 16px 8px rgba(0,51,204,0.18),
+            0 0 32px 16px rgba(0,51,204,0.12),
+            0 2px 8px rgba(0,0,0,0.06);
+        animation: blue-halo-pulse 2s infinite alternate;
+    }
+
+    @keyframes blue-halo-pulse {
+        0% {
+            box-shadow:
+                0 0 0 0px rgba(0,51,204,0.3),
+                0 0 16px 8px rgba(0,51,204,0.18),
+                0 0 32px 16px rgba(0,51,204,0.12),
+                0 2px 8px rgba(0,0,0,0.06);
+        }
+        100% {
+            box-shadow:
+                0 0 0 8px rgba(0,51,204,0.18),
+                0 0 32px 24px rgba(0,51,204,0.10),
+                0 0 48px 32px rgba(0,51,204,0.08),
+                0 2px 8px rgba(0,0,0,0.06);
+        }
+    }
+    .whatsapp-btn {
+        transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+    }
+    .whatsapp-btn:hover {
+        background: #128C7E;
+        box-shadow: 0 4px 16px rgba(37,211,102,0.18);
+        transform: scale(1.12);
+        color: #fff;
+    }
+    /* Reduce popup width by 30% */
+.popup-content {
+    /* ...existing code... */
+    min-width: 210px; /* was 300px, reduced by 30% */
+    max-width: 490px; /* if you have a max-width, reduce it by 30% as well */
+    width: 70%;       /* if you use width, set to 70% of original */
+}
+    </style>
+    <script src="script.js"></script>
+</body>
+</html>
